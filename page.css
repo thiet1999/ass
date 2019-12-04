@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.wrap-header {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.wrap-header ul {
+    margin: 0;
+}
+
+.wrap-header ul:first-child {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2.5fr 1.5fr;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+}
+
+.wrap-header ul:nth-child(2) {
+    display: flex;
+    color: #000;
+    align-items: center;
+    list-style: none;
+}
+
+.wrap-header ul:nth-child(2) li {
+    margin-left: 20px;
+    display: inline-block;
+}
+
+
+}
+.wrap-header ul a {
+    text-decoration: none;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px 0;
+}
+.banner {
+    background-image: url(./images/Banner.png);
+    background-size: cover;
+    height: 100%;
+}
+.company {
+    max-width: 380px;
+    background: #323A44;
+}
+footer {
+    background: #0E0E39;
+}
+.row-footer {
+    border-top: 1px solid #ccc;
+}
+.logo-footer {
+    padding-top: 40px;
+}
+.col-footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding-bottom: 20px;
+}
+.content-footer {
+    display: grid;
+    grid-template-columns: 12px 1fr;
+    grid-gap: 10px;
+}
+.contact-footer {
+    display: grid;
+    grid-templ
+}
+.title-IHR {
+    margin-top: 0px;
+}
+.row-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.social-media-footer h3 {
+    padding-top: 20px;
+}
+.row-contact-footer ul {
+    padding: 0;
+    list-style: none;
+}
+.row-contact-footer ul li {
+    padding: 5px 0;
+}
+.row-contact-footer ul a {
+    text-decoration: none;
+    color: #4dcefd;
+    font-size: 16px;
+}
+.icon-media {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.box-media {
+    background: #090a26;
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 130px;
+}
+.box-media span {
+    margin-left: 5px;
+}
+576 768 992 1200
